@@ -1,0 +1,234 @@
+[
+	{
+		"id": 0,
+		"type": "None",
+		"name": "None",
+		"minLevel": 0,
+		"maxLevel": 0
+	},
+	{
+		"id": 1,
+		"type": "Attack",
+		"name": "Attack",
+		"awakenings": [
+			[ 2, 4, 6, 8, 9, 14 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 9, 14 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ],
+			[ 2, 4, 6, 8, 10, 15 ]
+		],
+		"minLevel": 1,
+		"maxLevel": 6
+	},
+	{
+		"id": 2,
+		"type": "Affinity",
+		"name": "Affinity",
+		"awakenings": [ [ 2, 4, 6, 8, 10, 15 ] ],
+		"minLevel": 1,
+		"maxLevel": 6
+	},
+	{
+		"id": 3,
+		"type": "Defense",
+		"name": "Defense",
+		"awakenings": [ [ 10, 20, 30, 40, 50, 60 ] ],
+		"minLevel": 1,
+		"maxLevel": 6,
+		"max": 1
+	},
+	{
+		"id": 4,
+		"type": "Slot",
+		"name": "Slot",
+		"awakenings": [ [ 0, 1, 2, 3, 4, 5 ] ],
+		"minLevel": 1,
+		"maxLevel": 6,
+		"max": 1
+	},
+	{
+		"id": 5,
+		"type": "Ailment",
+		"name": "Ailment",
+		"awakenings": [
+			[ 10, 20, 30, 40, 50, 70 ],
+			[ 0, 0, 0, 20, 30, 50 ],
+			[ 0, 0, 0, 20, 30, 50 ],
+			[ 0, 0, 0, 10, 20, 40 ],
+			[ 10, 20, 30, 40, 50, 70 ],
+			[ 20, 30, 40, 50, 60, 90 ],
+			[ 20, 30, 40, 50, 60, 90 ],
+			[ 20, 30, 40, 50, 60, 90 ],
+			[ 10, 20, 30, 40, 50, 70 ],
+			[ 10, 20, 30, 40, 50, 70 ],
+			[ 0, 0, 0, 20, 30, 50 ],
+			[ 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 20, 30, 50 ]
+		],
+		"safiAilments": [
+			[ 180, 300 ],
+			[ 120, 210 ],
+			[ 90, 180 ],
+			[ 90, 150 ],
+			[ 180, 210 ],
+			[ 180, 300 ],
+			[ 120, 210 ],
+			[ 180, 240 ],
+			[ 180, 240 ],
+			[ 120, 150 ],
+			[ 90, 180 ],
+			[ 0, 0 ],
+			[ 0, 0 ],
+			[ 0, 120 ]
+		],
+		"minLevel": 1,
+		"maxLevel": 6
+	},
+	{
+		"id": 6,
+		"type": "Element",
+		"name": "Element",
+		"awakenings": [
+			[ 20, 40, 60, 90, 120, 150 ],
+			[ 10, 30, 50, 70, 90, 120 ],
+			[ 10, 20, 30, 50, 70, 100 ],
+			[ 20, 30, 40, 50, 60, 90 ],
+			[ 20, 40, 60, 90, 120, 150 ],
+			[ 20, 30, 60, 80, 100, 150 ],
+			[ 10, 30, 50, 70, 90, 120 ],
+			[ 20, 40, 60, 80, 100, 150 ],
+			[ 10, 30, 50, 70, 90, 120 ],
+			[ 20, 30, 40, 50, 60, 90 ],
+			[ 10, 20, 30, 50, 70, 100 ],
+			[ 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0 ],
+			[ 10, 20, 30, 50, 70, 100 ]
+		],
+		"safiElements": [
+			150,
+			180,
+			150,
+			120,
+			180,
+			180,
+			180,
+			180,
+			180,
+			180,
+			150,
+			0,
+			0,
+			120
+		],
+		"minLevel": 1,
+		"maxLevel": 6
+	},
+	{
+		"id": 7,
+		"type": "Sharpness",
+		"name": "Sharpness",
+		"awakenings": [ [ 10, 20, 30, 40, 50, 70 ] ],
+		"minLevel": 1,
+		"maxLevel": 6
+	},
+	{
+		"id": 8,
+		"type": "NormalCapacity",
+		"name": "Normal Capacity",
+		"short": "Normal Cap.",
+		"awakenings": [ [ 0, 0, 0, 1, 2, 3 ] ],
+		"minLevel": 4,
+		"maxLevel": 6,
+		"max": 1
+	},
+	{
+		"id": 9,
+		"type": "PierceCapacity",
+		"name": "Pierce Capacity",
+		"short": "Pierce Cap.",
+		"awakenings": [ [ 0, 0, 0, 1, 2, 3 ] ],
+		"minLevel": 4,
+		"maxLevel": 6,
+		"max": 1
+	},
+	{
+		"id": 10,
+		"type": "SpreadCapacity",
+		"name": "Spread Capacity",
+		"short": "Spread Cap.",
+		"awakenings": [ [ 0, 0, 0, 1, 2, 3 ] ],
+		"minLevel": 4,
+		"maxLevel": 6,
+		"max": 1
+	},
+	{
+		"id": 11,
+		"type": "ElementalCapacity",
+		"name": "Elemental Capacity",
+		"short": "Elemental Cap.",
+		"awakenings": [ [ 0, 0, 0, 1, 2, 3 ] ],
+		"minLevel": 4,
+		"maxLevel": 6,
+		"max": 1
+	},
+	{
+		"id": 12,
+		"type": "AttackMelody",
+		"name": "Attack Melody",
+		"short": "Attack Mel.",
+		"awakenings": [ [ 6, 12, 13, 14, 15, 15 ] ],
+		"minLevel": 2,
+		"maxLevel": 5,
+		"max": 1
+	},
+	{
+		"id": 13,
+		"type": "StaminaMelody",
+		"name": "Stamina Melody",
+		"short": "Stamina Mel.",
+		"awakenings": [ [ 5, 1, 2, 3, 4, 4 ] ],
+		"minLevel": 2,
+		"maxLevel": 5,
+		"max": 1
+	},
+	{
+		"id": 14,
+		"type": "ElementalMelody",
+		"name": "Elemental Melody",
+		"short": "Elemental Mel.",
+		"awakenings": [ [ 5, 8, 9, 10, 11, 11 ] ],
+		"minLevel": 2,
+		"maxLevel": 5,
+		"max": 1
+	},
+	{
+		"id": 15,
+		"type": "StatusMelody",
+		"name": "Status Melody",
+		"short": "Status Mel.",
+		"awakenings": [ [ 5, 7, 7, 7, 7, 7 ] ],
+		"minLevel": 2,
+		"maxLevel": 2,
+		"max": 1
+	},
+	{
+		"id": 16,
+		"type": "EarplugsMelody",
+		"name": "Earplugs Melody",
+		"short": "Earplugs Mel.",
+		"awakenings": [ [ 5, 6, 6, 6, 6, 6 ] ],
+		"minLevel": 2,
+		"maxLevel": 2,
+		"max": 1
+	}
+]

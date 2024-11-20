@@ -1,0 +1,44 @@
+id	name
+selfImprovement	Self-Improvement
+attackUp	Attack Up
+healthBoost	Health Boost
+defenseUp	Defense Up
+attackUp+defenseUp	Attack & Defense Up
+earplugs	Earplugs
+healthRecovery	Health Recovery
+healthRecovery	Health Recovery
+antidote	Antidote effect
+affinityUp	Affinity Up
+recoverySpeed	Recovery Speed
+staminaUseReduce	Stamina Use Reduced
+scoutflyPowerUp	Scoutfly Power Up
+divineProtection	Divine Protection
+muckRes	Muck/Water/Deep Snow Res
+windPressureNegated	Wind Pressure Negated
+allWindPressureNegated	All Wind Pressure Negated
+envirDamageNegated	Envir. Damage Negated
+stunNegated	Stun Negated
+paralysisNegated	Paralysis Negated
+tremorsNegated	Tremors Negated
+blightNegated	Blight Negated
+sonicWaves	Sonic Waves
+impactEchoWave	Impact Echo Wave
+toolUseDrainReduce	Tool Use Drain Reduced
+iceResBoost	Ice Res Boost
+fireResBoost	Fire Res Boost
+waterResBoost	Water Res Boost
+thunderResBoost	Thunder Res Boost
+dragonResBoost	Dragon Res Boost
+elementalBoost	Elemental Attack Boost
+ailmentBoost	Abnormal Status Atk. Increased
+allMelodyEffectExtended	All Melody Effects Extended
+knockbacksNegated	Knockbacks Negated
+blightResUp	Blight Res Up
+maxStaminaUp	Max Stamina Up
+recovery	Recovery
+echoWaveDragon	Echo Wave "Dragon"
+extendedHealthRecovery	Extended Health Recovery
+speedBoost	Speed Boost
+evadeWindowUp	Evade Window Up
+elementalEffectivenessUp	Elemental Effectiveness Up
+allAilmentsNegated	All Ailments Negated

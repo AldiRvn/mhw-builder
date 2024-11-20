@@ -1,0 +1,340 @@
+[
+	{
+		"id": 1,
+		"type": "Attack",
+		"name": "Attack Increase",
+		"description": "Increases attack power. Stacks with other upgrades.",
+		"multiplier": 1,
+		"levels": [
+			{
+				"description": "+5",
+				"passiveAttack": 5,
+				"requiredSlots": 3,
+				"totalSlots": 3
+			},
+			{
+				"description": "+10",
+				"passiveAttack": 10,
+				"requiredSlots": 2,
+				"totalSlots": 5
+			},
+			{
+				"description": "+15",
+				"passiveAttack": 15,
+				"requiredSlots": 2,
+				"totalSlots": 7
+			},
+			{
+				"description": "+25",
+				"passiveAttack": 25,
+				"requiredSlots": 2,
+				"totalSlots": 9
+			}
+		],
+		"WeaponCustomUpgrades": [
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 2, 2 ],
+			[ 1, 1, 1, 1, 1, 2, 2 ],
+			[ 1, 1, 1, 1, 1, 2, 2 ],
+			[ 1, 1, 1, 1, 1, 2, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ],
+			[ 1, 1, 1, 1, 1, 1, 2 ]
+		]
+	},
+	{
+		"id": 2,
+		"type": "Affinity",
+		"name": "Affinity Increase",
+		"description": "Increases affinity. Stacks with other upgrades.",
+		"multiplier": 1,
+		"levels": [
+			{
+				"description": "+10",
+				"passiveAffinity": 10,
+				"requiredSlots": 2,
+				"totalSlots": 2
+			},
+			{
+				"description": "+15",
+				"passiveAffinity": 15,
+				"requiredSlots": 2,
+				"totalSlots": 4
+			},
+			{
+				"description": "+20",
+				"passiveAffinity": 20,
+				"requiredSlots": 2,
+				"totalSlots": 6
+			},
+			{
+				"description": "+25",
+				"passiveAffinity": 25,
+				"requiredSlots": 2,
+				"totalSlots": 8
+			}
+		],
+		"WeaponCustomUpgrades": [
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 1, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 1, 3 ],
+			[ 1, 1, 1, 1, 1, 1, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 1, 3 ],
+			[ 1, 1, 1, 1, 1, 0, 3 ],
+			[ 1, 1, 1, 1, 1, 1, 3 ]
+		]
+	},
+	{
+		"id": 3,
+		"type": "Defense",
+		"name": "Defense Increase",
+		"description": "Increases defense and adds a chance to reduce damage taken each time you receive damage. Defense stacks with other upgrades, Divine Blessing does not.",
+		"multiplier": 1,
+		"levels": [
+			{
+				"description": "+15",
+				"passiveDefense": 15,
+				"requiredSlots": 1,
+				"totalSlots": 1
+			},
+			{
+				"description": "+25",
+				"passiveDefense": 25,
+				"requiredSlots": 1,
+				"totalSlots": 2
+			},
+			{
+				"description": "+35",
+				"passiveDefense": 35,
+				"requiredSlots": 1,
+				"totalSlots": 3
+			},
+			{
+				"description": "+50",
+				"passiveDefense": 50,
+				"requiredSlots": 2,
+				"totalSlots": 5
+			}
+		],
+		"WeaponCustomUpgrades": [
+			[ 10, 10, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 10, 10, 10, 10, 0, 0, 0 ],
+			[ 0, 0, 0, 10, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 10, 0, 0, 0, 0, 10 ],
+			[ 10, 0, 10, 0, 0, 0, 0 ],
+			[ 5, 5, 5, 5, 5, 10, 0 ],
+			[ 10, 0, 0, 0, 10, 0, 0 ],
+			[ 10, 10, 10, 0, 10, 0, 0 ],
+			[ 10, 10, 10, 10, 10, 0, 0 ],
+			[ 10, 10, 10, 0, 0, 0, 0 ],
+			[ 10, 10, 10, 10, 0, 0, 0 ]
+		]
+	},
+	{
+		"id": 4,
+		"type": "Slot",
+		"name": "Slot Upgrade",
+		"description": "Adds an extra slot. Stack with other upgrades to increase the slot's level.",
+		"multiplier": 1,
+		"levels": [
+			{
+				"description": "Lv 1 slot",
+				"slotLevel": 1,
+				"requiredSlots": 3,
+				"totalSlots": 3
+			},
+			{
+				"description": "Lv 2 slot",
+				"slotLevel": 2,
+				"requiredSlots": 3,
+				"totalSlots": 6
+			},
+			{
+				"description": "Lv 3 slot",
+				"slotLevel": 3,
+				"requiredSlots": 1,
+				"totalSlots": 7
+			},
+			{
+				"description": "Lv 3 slot",
+				"slotLevel": 4,
+				"requiredSlots": 1,
+				"totalSlots": 8
+			}
+		],
+		"WeaponCustomUpgrades": [
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ]
+		]
+	},
+	{
+		"id": 5,
+		"type": "Health",
+		"name": "Health Regen",
+		"description": "Regain health as you land attacks. Stack with other upgrades to increase the amount of health regained.",
+		"multiplier": 1,
+		"levels": [
+			{
+				"description": "Heal on hit +7.5%",
+				"healOnHitPercent": 7.5,
+				"requiredSlots": 3,
+				"totalSlots": 3
+			},
+			{
+				"description": "Heal on hit +9%",
+				"healOnHitPercent": 9,
+				"requiredSlots": 2,
+				"totalSlots": 5
+			},
+			{
+				"description": "Heal on hit +11.25%",
+				"healOnHitPercent": 11.25,
+				"requiredSlots": 2,
+				"totalSlots": 7
+			},
+			{
+				"description": "Heal on hit +13.5%",
+				"healOnHitPercent": 13.5,
+				"requiredSlots": 2,
+				"totalSlots": 9
+			}
+		],
+		"WeaponCustomUpgrades": [
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ]
+		]
+	},
+	{
+		"id": 6,
+		"type": "Element",
+		"name": "Element/Ailment Increase",
+		"description": "",
+		"multiplier": 10,
+		"levels": [
+			{
+				"description": "+30",
+				"passiveElement": 30,
+				"passiveAilment": 30,
+				"requiredSlots": 1,
+				"totalSlots": 1
+			},
+			{
+				"description": "+60",
+				"passiveElement": 60,
+				"passiveAilment": 60,
+				"requiredSlots": 2,
+				"totalSlots": 3
+			},
+			{
+				"description": "+90",
+				"passiveElement": 90,
+				"passiveAilment": 90,
+				"requiredSlots": 2,
+				"totalSlots": 5
+			},
+			{
+				"description": "+120",
+				"passiveElement": 120,
+				"passiveAilment": 120,
+				"requiredSlots": 2,
+				"totalSlots": 7
+			}
+		],
+		"WeaponLevels":[
+			[ 40, 70, 110, 140],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120],
+			[ 30, 70, 100, 130],
+			[ 30, 60, 90, 120],
+			[ 30, 70, 100, 130],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120],
+			[ 30, 60, 90, 120]
+		],
+		"WeaponCustomUpgrades": [
+			[ 1, 1, 1, 1, 1, 0, 0 ],
+			[ 1, 1, 1, 1, 1, 1, 1 ],
+			[ 1, 1, 1, 1, 1, 1, 1 ],
+			[ 1, 1, 1, 1, 1, 0, 0 ],
+			[ 1, 1, 1, 1, 1, 0, 0 ],
+			[ 1, 1, 1, 1, 1, 0, 0 ],
+			[ 1, 1, 1, 1, 1, 0, 1 ],
+			[ 1, 1, 1, 1, 1, 1, 0 ],
+			[ 1, 1, 1, 1, 1, 1, 0 ],
+			[ 1, 1, 1, 1, 1, 0, 0 ],
+			[ 1, 1, 1, 1, 1, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 1, 1 ],
+			[ 0, 0, 0, 0, 0, 0, 1 ],
+			[ 1, 1, 1, 1, 1, 1, 1 ]
+		]
+	},
+	{
+		"id": 7,
+		"type": "Sharpness",
+		"name": "Sharpness Increase",
+		"description": "",
+		"multiplier": 1,
+		"levels": [],
+		"WeaponCustomUpgrades": [
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 10 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ],
+			[ 0, 0, 0, 0, 0, 0, 0 ]
+		]
+	}
+]

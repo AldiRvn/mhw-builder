@@ -1,0 +1,16 @@
+id	rarity	name	attackType	dustEffect	power	speed	heal	elementPower
+101	11	Vezirstag III Velox	Sever	Poison	16	11	12	20
+102	11	Vezirstag III Forz	Sever	Blast	20	7	13	20
+103	11	Bilbobrix III Velox	Sever	Paralysis	6	15	20	20
+104	11	Bilbobrix III Forz	Sever	Blast	14	6	20	20
+105	11	Foliacath III Medis	Sever	Heal	6	20	14	20
+106	11	Foliacath III Forz	Sever	Blast	15	20	5	20
+107	12	Elscarad III	Sever	Heal	12	12	20	20
+151	11	Gleambeetle III Velox	Blunt	Poison	17	14	7	20
+152	11	Gleambeetle III Medis	Blunt	Blast	19	8	11	19
+153	11	Ladytower III Forz	Blunt	Paralysis	12	8	20	18
+154	11	Ladytower III Velox	Blunt	Blast	9	11	20	19
+155	11	Valorwing III Forz	Blunt	Heal	10	20	9	20
+156	11	Valorwing III Medis	Blunt	Blast	5	20	14	19
+157	12	Arginesse III	Blunt	Heal	11	12	20	20
+160	12	Nexus Dragon Soul	Blunt	Blast	17	16	1	20

@@ -1,0 +1,236 @@
+[
+	{
+		"id": 1,
+		"code": "REC",
+		"name": "Recoil Suppressor",
+		"description": "Reduce recoil for certain ammo types. Equipping two or more increase its efficacy.",
+		"levels": [
+			{
+				"description": "Recoil -1",
+				"recoil": -1
+			},
+			{
+				"description": "Recoil -2",
+				"recoil": -2
+			},
+			{
+				"description": "Recoil -3",
+				"recoil": -3
+			},
+			{
+				"description": "Recoil -4",
+				"recoil": -4
+			}
+		]
+	},
+	{
+		"id": 2,
+		"code": "REL",
+		"name": "Reload Assist",
+		"description": "Reduce reload time for specific ammo. Equipping two or more alters its effect.",
+		"levels": [
+			{
+				"description": "Reload +1",
+				"reload": 1
+			},
+			{
+				"description": "Reload +2",
+				"reload": 2
+			},
+			{
+				"description": "Reload +3",
+				"reload": 3
+			},
+			{
+				"description": "Reload +4",
+				"reload": 4
+			}
+		]
+	},
+	{
+		"id": 3,
+		"code": "DEV",
+		"name": "Deviation Suppressor",
+		"description": "Reduces deviation when firing. Can be equipped multiple times.",
+		"levels": [
+			{
+				"description": "Deviation -1",
+				"deviation": -1
+			},
+			{
+				"description": "Deviation -2",
+				"deviation": -2
+			},
+			{
+				"description": "Deviation -3",
+				"deviation": -3
+			},
+			{
+				"description": "Deviation -4",
+				"deviation": -4
+			}
+		]
+	},
+	{
+		"id": 4,
+		"code": "CLO",
+		"name": "Close Range Up",
+		"description": "Increases attack power when firing at close range. Can be equipped multiple times.",
+		"levels": [
+			{
+				"description": "Close +1",
+				"close": 1
+			},
+			{
+				"description": "Close +2",
+				"close": 2
+			},
+			{
+				"description": "Close +3",
+				"close": 3
+			},
+			{
+				"description": "Close +4",
+				"close": 4
+			}
+		]
+	},
+	{
+		"id": 5,
+		"code": "LNG",
+		"name": "Increases attack power when firing at long range. Can be equipped multiple times.",
+		"description": "",
+		"levels": [
+			{
+				"description": "Long +1",
+				"long": 1
+			},
+			{
+				"description": "Long +2",
+				"long": 2
+			},
+			{
+				"description": "Long +3",
+				"long": 3
+			},
+			{
+				"description": "Long +4",
+				"long": 4
+			}
+		]
+	},
+	{
+		"id": 6,
+		"code": "SHI",
+		"name": "Shield",
+		"description": "Automatic defend yourselft when your weapon is drawn. Equip two or more for better shielding. (HBG Only)",
+		"levels": [
+			{
+				"description": "Shield +1",
+				"shield": 1
+			},
+			{
+				"description": "Shield +2",
+				"shield": 2
+			},
+			{
+				"description": "Shield +3",
+				"shield": 3
+			},
+			{
+				"description": "Shield +4",
+				"shield": 4
+			}
+		]
+	},
+	{
+		"id": 7,
+		"code": "SCO",
+		"name": "Special Scope",
+		"description": "Enables an even deadlier Critical Range when readying the special scope. Does not Stack. (HBG Only)",
+		"levels": [
+			{
+				"description": "Scope +1"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"code": "EVR",
+		"name": "Evading Reload",
+		"description": "Reload ammo while performing an evasive slide. Equipping two or more increases amount reloaded. (LBG Only)",
+		"levels": [
+			{
+				"description": "Evading Reload +1",
+				"evadingReload": 1
+			},
+			{
+				"description": "Evading Reload +2",
+				"evadingReload": 2
+			},
+			{
+				"description": "Evading Reload +3",
+				"evadingReload": 3
+			},
+			{
+				"description": "Evading Reload +4",
+				"evadingReload": 4
+			}
+		]
+	},
+	{
+		"id": 9,
+		"code": "HEART",
+		"name": "Wyvernheart Mod",
+		"description": "Icreases Wyvernheart poer as succesive hit a monster. Does not stack.",
+		"levels": [
+			{
+				"description": "Wyvernheart+"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"code": "SNIPE",
+		"name": "Wyvernsnipe Mod",
+		"description": "Wyvernsnipe rounds no longer penetrate, but become extremely effective against weak points. Does not stack.",
+		"levels": [
+			{
+				"description": "Wyvernsnipe+"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"code": "BLAST",
+		"name": "Wyvernblast Mod",
+		"description": "Enables Wyvernblast Counter. A Forward firing mine that detonates inmediately or on impact. Does not stack.",
+		"levels": [
+			{
+				"description": "Wyvernblast+"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"code": "PBARREL",
+		"name": "Power Barrel",
+		"description": "Enchances piercing damage and boosts stun and exhaust effects. Only one barrel type can be equipped. Does not stack.",
+		"levels": [
+			{
+				"description": "Power Barrel"
+			}
+		]
+	},
+	{
+		"id": 13,
+		"code": "LBARREL",
+		"name": "Long Barrel",
+		"description": "Enchances ammo speed, extending both maximum and critical range. Only one barrel type can be equipped. Does not stack.",
+		"levels": [
+			{
+				"description": "Long Barrel"
+			}
+		]
+	}
+]

@@ -1,0 +1,742 @@
+[
+	{
+		"id": "xenojiivaDivinity",
+		"name": "Xeno'jiiva Divinity",
+		"setLevels": [
+			{
+				"id": "razorSharpSpareShot",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "kirinFavor",
+		"name": "Kirin Favor",
+		"buildId": 10,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "captureMaster",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "nergiganteHunger",
+		"name": "Nergigante Hunger",
+		"setLevels": [
+			{
+				"id": "hastenRecovery",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "vaalHazakVitality",
+		"name": "Vaal Hazak Vitality",
+		"setLevels": [
+			{
+				"id": "superRecovery",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "kushalaDaoraFlight",
+		"name": "Kushala Daora Flight",
+		"buildId": 11,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "nullifyWindPressure",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "teostraTechnique",
+		"name": "Teostra Technique",
+		"buildId": 1,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "mastersTouch",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "bazelgeuseProtection",
+		"name": "Bazelgeuse Protection",
+		"setLevels": [
+			{
+				"id": "guts",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "uragaanProtection",
+		"name": "Uragaan Protection",
+		"setLevels": [
+			{
+				"id": "guardUp",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "diablosMastery",
+		"name": "Diablos Mastery",
+		"setLevels": [
+			{
+				"id": "bludgeoner",
+				"pieces": 2
+			},
+			{
+				"id": "nonElementalBoost",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "rathalosMastery",
+		"name": "Rathalos Mastery",
+		"setLevels": [
+			{
+				"id": "criticalElement",
+				"pieces": 2
+			},
+			{
+				"id": "mindsEyeBallistics",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "odogaronMastery",
+		"name": "Odogaron Mastery",
+		"buildId": 14,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "punishingDraw",
+				"pieces": 2
+			},
+			{
+				"id": "protectivePolish",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "legianaFavor",
+		"name": "Legiana Favor",
+		"setLevels": [
+			{
+				"id": "goodLuck",
+				"pieces": 2
+			},
+			{
+				"id": "bowChargePlus",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "anjanathWill",
+		"name": "Anjanath Will",
+		"setLevels": [
+			{
+				"id": "adrenaline",
+				"pieces": 2
+			},
+			{
+				"id": "staminaCapUp",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "zorahMagdarosMastery",
+		"name": "Zorah Magdaros Mastery",
+		"setLevels": [
+			{
+				"id": "criticalStatus",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "pinkRathianMastery",
+		"name": "Pink Rathian Mastery",
+		"setLevels": [
+			{
+				"id": "poisonDurationUp",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "lunastraFavor",
+		"name": "Lunastra Favor",
+		"setLevels": [
+			{
+				"id": "staminaCapUp",
+				"pieces": 2
+			},
+			{
+				"id": "mindsEyeBallistics",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "soulDragon",
+		"name": "Soul of the Dragon",
+		"setLevels": [
+			{
+				"id": "elementalAirborne",
+				"pieces": 2
+			},
+			{
+				"id": "mastersTouch",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "asteraBlessing",
+		"name": "Astera Blessing",
+		"setLevels": [
+			{
+				"id": "greatLuck",
+				"pieces": 5
+			}
+		]
+	},
+	{
+		"id": "witchersKnowledge",
+		"name": "Witcher's Knowledge",
+		"setLevels": [
+			{
+				"id": "igniIntensity",
+				"pieces": 2
+			},
+			{
+				"id": "superRecovery",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "anjanathDominance",
+		"name": "Anjanath Dominance",
+		"buildId": 23,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "staminaCapUp",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "rathianEssence",
+		"name": "Rathian Essence",
+		"buildId": 4,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "poisonDurationUp",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "ancientDivinity",
+		"name": "Ancient Divinity",
+		"buildId": 18,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "criticalStatus",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "commissionAlchemy",
+		"name": "Commission Alchemy",
+		"buildId": 20,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "bombardierSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "bariothHiddenArt",
+		"name": "Barioth Hidden Art",
+		"buildId": 24,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "punishingDraw",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "rathalosEssence",
+		"name": "Rathalos Essence",
+		"buildId": 3,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "mindsEyeBallistics",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "diablosAmbition",
+		"name": "Diablos Ambition",
+		"buildId": 5,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "sluggerSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "legianaAmbition",
+		"name": "Legiana Ambition",
+		"buildId": 26,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "bowChargePlus",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "odogaronEssence",
+		"name": "Odogaron Essence",
+		"setLevels": [
+			{
+				"id": "protectivePolish",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "uragaanAmbition",
+		"name": "Uragaan Ambition",
+		"buildId": 21,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "guardUp",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "nargacugaEssence",
+		"name": "Nargacuga Essence",
+		"buildId": 17,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "trueRazorSharpSpareShot",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "glavenusEssence",
+		"name": "Glavenus Essence",
+		"buildId": 15,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "maximumMightSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "brachydiosEssence",
+		"name": "Brachydios Essence",
+		"buildId": 13,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "agitatorSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "tigrexEssence",
+		"name": "Tigrex Essence",
+		"buildId": 12,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "freeMealSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "instructorsGuidance",
+		"name": "Instructor's Guidance",
+		"setLevels": [
+			{
+				"id": "captureMaster",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "bazelgeuseAmbition",
+		"name": "Bazelgeuse Ambition",
+		"buildId": 22,
+		"level": 3,
+		"setLevels": [
+			{
+				"id": "guts",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "deviljhoEssence",
+		"name": "Deviljho Essence",
+		"buildId": 6,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "staminaThiefSecrect",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "velkhanaDivinity",
+		"name": "Velkhana Divinity",
+		"buildId": 25,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "criticalElement",
+				"pieces": 2
+			},
+			{
+				"id": "frostcraft",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "vaalSoulvein",
+		"name": "Vaal Soulvein",
+		"buildId": 16,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "superRecovery",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "kirinDivinity",
+		"name": "Kirin Divinity",
+		"setLevels": [
+			{
+				"id": "greatLuck",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "namielleDivinity",
+		"name": "Namielle Divinity",
+		"buildId": 27,
+		"level": 4,
+		"setLevels": [
+			{
+				"id": "elementAcceleration",
+				"pieces": 2
+			},
+			{
+				"id": "trueElementAcceleration",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "sharaIshvaldaDivinity",
+		"name": "Shara Ishvalda Divinity",
+		"buildId": 19,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "gaiasVeil",
+				"pieces": 4
+			},
+			{
+				"id": "trueGaiasVeil",
+				"pieces": 5
+			}
+		]
+	},
+	{
+		"id": "zorahMagdarosEssence",
+		"name": "Zorah Magdaros Essence",
+		"buildId": 29,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "artillerySecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "zinogreEssence",
+		"name": "Zinogre Essence",
+		"buildId": 30,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "latentPowerSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "goldenRathianEssence",
+		"name": "Golden Rathian Essence",
+		"buildId": 8,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "divineBlessingSecret",
+				"pieces": 2
+			},
+			{
+				"id": "trueCriticalStatus",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "silverRathalosEssence",
+		"name": "Silver Rathalos Essence",
+		"buildId": 7,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "slingerAmmoSecret",
+				"pieces": 2
+			},
+			{
+				"id": "trueCriticalElement",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "lunastraEssence",
+		"name": "Lunastra Essence",
+		"buildId": 2,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "toolSpecialistSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "nergiganteAmbition",
+		"name": "Nergigante Ambition",
+		"buildId": 28,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "hastenRecovery",
+				"pieces": 2
+			}
+		]
+	},
+	{
+		"id": "guildPride",
+		"name": "Guild Pride",
+		"setLevels": [
+			{
+				"id": "goodLuck",
+				"pieces": 2
+			},
+			{
+				"id": "carvingMaster",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "rajangRage",
+		"name": "Rajang Rage",
+		"buildId": 9,
+		"level": 5,
+		"setLevels": [
+			{
+				"id": "mindsEyeBallistics",
+				"pieces": 2
+			},
+			{
+				"id": "protectivePolish",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "survivor",
+		"name": "Survivor",
+		"setLevels": [
+			{
+				"id": "zombieEffluvialRes",
+				"pieces": 2
+			},
+			{
+				"id": "agitatorSecret",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "safijiivaSeal",
+		"name": "Safi'Jiiva Seal",
+		"setLevels": [
+			{
+				"id": "dragonveinAwakening",
+				"pieces": 3
+			},
+			{
+				"id": "trueDragonveinAwakening",
+				"pieces": 5
+			}
+		]
+	},
+	{
+		"id": "festivalBlessing",
+		"name": "Festival Blessing",
+		"setLevels": [
+			{
+				"id": "festivalGift",
+				"pieces": 3
+			},
+			{
+				"id": "festivalGratitude",
+				"pieces": 5
+			}
+		]
+	},
+	{
+		"id": "rajangWill",
+		"name": "Rajang Will",
+		"setLevels": [
+			{
+				"id": "maximumMightSecret",
+				"pieces": 2
+			},
+			{
+				"id": "heroicsSecret",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "brachydiosWill",
+		"name": "Brachydios Will",
+		"setLevels": [
+			{
+				"id": "agitatorSecret",
+				"pieces": 2
+			},
+			{
+				"id": "artillerySecret",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "kulveTarothEssence",
+		"name": "Kulve Taroth Essence",
+		"setLevels": [
+			{
+				"id": "guts",
+				"pieces": 2
+			},
+			{
+				"id": "freeMealSecret",
+				"pieces": 4
+			}
+		]
+	},
+	{
+		"id": "alatreonDivinity",
+		"name": "Alatreon Divinity",
+		"setLevels": [
+			{
+				"id": "elementConversion",
+				"pieces": 2
+			},
+			{
+				"id": "allElementalResistance",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "frostfangAbsoluteArt",
+		"name": "Frostfang Absolute Art",
+		"setLevels": [
+			{
+				"id": "punishingDraw",
+				"pieces": 1
+			},
+			{
+				"id": "sluggerSecret",
+				"pieces": 3
+			}
+		]
+	},
+	{
+		"id": "fatalisLegend",
+		"name": "Fatalis Legend",
+		"setLevels": [
+			{
+				"id": "inheritance",
+				"pieces": 2
+			},
+			{
+				"id": "transcendence",
+				"pieces": 4
+			},
+			{
+				"id": "trueRazorSharpSpareShot",
+				"pieces": 4
+			}
+		]
+	}
+]
