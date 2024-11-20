@@ -2776,5 +2776,15 @@
 				"passiveStamina": 50
 			}
 		]
+	},
+	{
+		"id": "clutchClawBoost",
+		"name": "Clutch Claw Boost",
+		"description": "",
+		"levels": [
+			{
+				"description": "Clutch claw weapon attacks wound monsters easier, and have a better chance of dropping slinger ammo."
+			}
+		]
 	}
 ]
