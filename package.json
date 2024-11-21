@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^9.0.2",
     "@angular/router": "^9.0.2",
     "core-js": "^3.6.4",
+    "html2canvas": "^1.4.1",
     "ngx-virtual-scroller": "^3.0.3",
     "rxjs": "^6.5.4",
     "sass": "^1.81.0",

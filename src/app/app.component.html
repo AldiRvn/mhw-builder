@@ -23,6 +23,9 @@
 	</div>
 	<div class="stats-container" [hidden]="!statsVisible">
 		<div class="control-buttons">
+			<button type="button" (click)="screenshot()" title="Screenshot">
+				<i class="fas fa-camera fa-lg"></i>
+			</button>
 			<button type="button" (click)="clearAllItems()" title="Clear">
 				<i class="fas fa-eraser fa-lg"></i>
 			</button>

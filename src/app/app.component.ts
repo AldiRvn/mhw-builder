@@ -13,6 +13,7 @@ import { SlotService } from './services/slot.service';
 import { EquipmentCategoryType } from './types/equipment-category.type';
 import { ItemType } from './types/item.type';
 import { PointerType } from './types/pointer.type';
+import html2canvas from 'html2canvas';
 
 @Component({
 	selector: 'mhw-builder-root',
@@ -229,6 +230,15 @@ export class AppComponent implements OnInit, AfterViewInit {
 			this.buildService.loadBuild('#v3iiiiiiiii');
 		} else {
 		}
+	}
+
+	screenshot() {
+		html2canvas(document.body).then(function(canvas) {
+			var a = document.createElement('a');
+			a.setAttribute('download', new Date().toISOString()+'.MHW-Builder.png');
+			a.setAttribute('href', canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
+			a.click();
+		});
 	}
 
 	openContributors() {
