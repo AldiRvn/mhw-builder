@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "export NODE_OPTIONS=--openssl-legacy-provider; ng serve",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build --output-path docs --prod --base-href https://aldirvn.github.io/mhworld-builder/",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build --output-path docs --prod --base-href /mhworld-builder/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
