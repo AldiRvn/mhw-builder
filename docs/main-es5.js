@@ -153,79 +153,91 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _components_equipped_buffs_equipped_buffs_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    var html2canvas__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! html2canvas */
+    "./node_modules/html2canvas/dist/html2canvas.js");
+    /* harmony import */
+
+
+    var html2canvas__WEBPACK_IMPORTED_MODULE_13___default =
+    /*#__PURE__*/
+    __webpack_require__.n(html2canvas__WEBPACK_IMPORTED_MODULE_13__);
+    /* harmony import */
+
+
+    var _components_equipped_buffs_equipped_buffs_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! ./components/equipped-buffs/equipped-buffs.component */
     "./src/app/components/equipped-buffs/equipped-buffs.component.ts");
     /* harmony import */
 
 
-    var _components_set_list_set_list_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    var _components_set_list_set_list_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./components/set-list/set-list.component */
     "./src/app/components/set-list/set-list.component.ts");
     /* harmony import */
 
 
-    var _components_melodies_melodies_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    var _components_melodies_melodies_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! ./components/melodies/melodies.component */
     "./src/app/components/melodies/melodies.component.ts");
     /* harmony import */
 
 
-    var _components_weapon_list_weapon_list_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    var _components_weapon_list_weapon_list_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
     /*! ./components/weapon-list/weapon-list.component */
     "./src/app/components/weapon-list/weapon-list.component.ts");
     /* harmony import */
 
 
-    var _components_armor_list_armor_list_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    var _components_armor_list_armor_list_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! ./components/armor-list/armor-list.component */
     "./src/app/components/armor-list/armor-list.component.ts");
     /* harmony import */
 
 
-    var _components_charm_list_charm_list_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    var _components_charm_list_charm_list_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./components/charm-list/charm-list.component */
     "./src/app/components/charm-list/charm-list.component.ts");
     /* harmony import */
 
 
-    var _components_tool_list_tool_list_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    var _components_tool_list_tool_list_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! ./components/tool-list/tool-list.component */
     "./src/app/components/tool-list/tool-list.component.ts");
     /* harmony import */
 
 
-    var _components_decoration_list_decoration_list_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    var _components_decoration_list_decoration_list_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./components/decoration-list/decoration-list.component */
     "./src/app/components/decoration-list/decoration-list.component.ts");
     /* harmony import */
 
 
-    var _components_augmentations_list_augmentations_list_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    var _components_augmentations_list_augmentations_list_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./components/augmentations-list/augmentations-list.component */
     "./src/app/components/augmentations-list/augmentations-list.component.ts");
     /* harmony import */
 
 
-    var _components_upgrades_list_upgrades_list_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    var _components_upgrades_list_upgrades_list_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
     /*! ./components/upgrades-list/upgrades-list.component */
     "./src/app/components/upgrades-list/upgrades-list.component.ts");
     /* harmony import */
 
 
-    var _components_setbonus_list_setbonus_list_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    var _components_setbonus_list_setbonus_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
     /*! ./components/setbonus-list/setbonus-list.component */
     "./src/app/components/setbonus-list/setbonus-list.component.ts");
     /* harmony import */
 
 
-    var _components_modifications_list_modifications_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    var _components_modifications_list_modifications_list_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
     /*! ./components/modifications-list/modifications-list.component */
     "./src/app/components/modifications-list/modifications-list.component.ts");
     /* harmony import */
 
 
-    var _components_kinsect_list_kinsect_list_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    var _components_kinsect_list_kinsect_list_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
     /*! ./components/kinsect-list/kinsect-list.component */
     "./src/app/components/kinsect-list/kinsect-list.component.ts");
 
@@ -243,7 +255,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _c11 = ["setListModal"];
     var _c12 = ["contributorsModal"];
 
-    function AppComponent_ng_container_38_Template(rf, ctx) {
+    function AppComponent_ng_container_40_Template(rf, ctx) {
       if (rf & 1) {
         var _r262 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
 
@@ -255,9 +267,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, " Melodies ");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "span", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "span", 61);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_ng_container_38_Template_span_click_4_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_ng_container_40_Template_span_click_4_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r262);
 
           var ctx_r261 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
@@ -265,13 +277,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           return ctx_r261.detailsVisible = !ctx_r261.detailsVisible;
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "i", 60);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "i", 62);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "span", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "span", 61);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_ng_container_38_Template_span_click_6_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_ng_container_40_Template_span_click_6_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r262);
 
           var ctx_r263 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
@@ -279,17 +291,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           return ctx_r263.detailsVisible = !ctx_r263.detailsVisible;
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "i", 61);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "i", 63);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 31);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "hr");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "mhw-builder-melodies", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "mhw-builder-melodies", 64);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -319,9 +331,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function AppComponent_mhw_builder_weapon_list_78_Template(rf, ctx) {
+    function AppComponent_mhw_builder_weapon_list_80_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-weapon-list", 63);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-weapon-list", 65);
       }
 
       if (rf & 2) {
@@ -335,9 +347,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       return [a0];
     };
 
-    function AppComponent_mhw_builder_armor_list_79_Template(rf, ctx) {
+    function AppComponent_mhw_builder_armor_list_81_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-armor-list", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-armor-list", 66);
       }
 
       if (rf & 2) {
@@ -347,9 +359,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function AppComponent_mhw_builder_charm_list_80_Template(rf, ctx) {
+    function AppComponent_mhw_builder_charm_list_82_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-charm-list", 65);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-charm-list", 67);
       }
 
       if (rf & 2) {
@@ -359,9 +371,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function AppComponent_mhw_builder_tool_list_81_Template(rf, ctx) {
+    function AppComponent_mhw_builder_tool_list_83_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-tool-list", 65);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-tool-list", 67);
       }
 
       if (rf & 2) {
@@ -371,9 +383,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function AppComponent_mhw_builder_decoration_list_82_Template(rf, ctx) {
+    function AppComponent_mhw_builder_decoration_list_84_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-decoration-list", 66);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-decoration-list", 68);
       }
 
       if (rf & 2) {
@@ -383,15 +395,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function AppComponent_mhw_builder_augmentations_list_83_Template(rf, ctx) {
+    function AppComponent_mhw_builder_augmentations_list_85_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-augmentations-list");
       }
     }
 
-    function AppComponent_mhw_builder_upgrades_list_84_Template(rf, ctx) {
+    function AppComponent_mhw_builder_upgrades_list_86_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-upgrades-list", 67);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-upgrades-list", 69);
       }
 
       if (rf & 2) {
@@ -401,19 +413,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
     }
 
-    function AppComponent_mhw_builder_setbonus_list_85_Template(rf, ctx) {
+    function AppComponent_mhw_builder_setbonus_list_87_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-setbonus-list");
       }
     }
 
-    function AppComponent_mhw_builder_modifications_list_86_Template(rf, ctx) {
+    function AppComponent_mhw_builder_modifications_list_88_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-modifications-list");
       }
     }
 
-    function AppComponent_mhw_builder_kinsect_list_87_Template(rf, ctx) {
+    function AppComponent_mhw_builder_kinsect_list_89_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mhw-builder-kinsect-list");
       }
@@ -601,6 +613,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           } else {}
         }
       }, {
+        key: "screenshot",
+        value: function screenshot() {
+          html2canvas__WEBPACK_IMPORTED_MODULE_13___default()(document.body).then(function (canvas) {
+            var a = document.createElement('a');
+            a.setAttribute('download', new Date().toISOString() + '.MHW-Builder.png');
+            a.setAttribute('href', canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
+            a.click();
+          });
+        }
+      }, {
         key: "openContributors",
         value: function openContributors() {
           this.contributorsModal.open();
@@ -682,9 +704,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }, false, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresolveDocument"]);
         }
       },
-      decls: 172,
+      decls: 174,
       vars: 22,
-      consts: [[1, "container", 3, "pointermove"], [1, "tab-container"], [1, "tab", 3, "click"], [1, "fas", "fa-save", "fa-lg"], [1, "equipment-container", 3, "hidden"], [1, "equipment-slots-container"], ["slotName", "Weapon"], ["weaponSlot", ""], ["slotName", "Head"], ["headSlot", ""], ["slotName", "Chest"], ["chestSlot", ""], ["slotName", "Arms"], ["armsSlot", ""], ["slotName", "Waist"], ["waistSlot", ""], ["slotName", "Legs"], ["legsSlot", ""], ["slotName", "Charm"], ["charmSlot", ""], ["slotName", "Tool1"], ["tool1Slot", ""], ["slotName", "Tool2"], ["tool2Slot", ""], [1, "stats-container", 3, "hidden"], [1, "control-buttons"], ["type", "button", "title", "Clear", 3, "click"], [1, "fas", "fa-eraser", "fa-lg"], ["type", "button", "title", "Save", 3, "click"], [3, "hidden"], [4, "ngIf"], [1, "signature"], ["type", "button", 3, "click"], ["href", "https://github.com/neftalimich/mhw-builder", "target", "_blank", "rel", "noreferrer", "title", "github"], [1, "fab", "fa-github"], ["href", "https://discord.gg/4s7yqFg", "target", "_blank", "rel", "noreferrer", "title", "discord"], [1, "fab", "fa-discord"], ["href", "https://twitter.com/mhw_builder", "target", "_blank", "rel", "noreferrer", "title", "twitter"], [1, "fab", "fa-twitter"], [1, "version-info"], ["type", "button", "id", "dummy", "aria-label", "dummy"], ["title", "Saved Sets List"], ["setListModal", ""], ["title", "Information"], ["contributorsModal", ""], [2, "padding", "16px"], ["href", "https://github.com/TurkeyTickle/mhw-builder", "target", "_blank", "rel", "noreferrer"], ["href", "https://www.github.com/neftalimich/mhw-builder", "target", "_blank", "rel", "noreferrer"], ["href", "https://twitter.com/mhw_builder", "target", "_blank", "rel", "noreferrer"], ["href", "https://paypal.me/neftalimich", "target", "_blank", "rel", "noreferrer"], ["href", "http://honeyhunterworld.com/mhwbi/", "target", "_blank", "rel", "noreferrer"], ["itemListModal", ""], [3, "itemType", "onlyIceborne", 4, "ngIf"], [3, "itemTypeFilters", "onlyIceborne", 4, "ngIf"], [3, "itemType", 4, "ngIf"], [3, "decorationLevel", 4, "ngIf"], [3, "upgradeContainer", 4, "ngIf"], ["title", "Change Log"], ["changeLogModal", ""], [3, "hidden", "click"], [1, "fas", "fa-minus-circle", "number"], [1, "fas", "fa-plus-circle", "number"], [3, "weaponMelodies"], [3, "itemType", "onlyIceborne"], [3, "itemTypeFilters", "onlyIceborne"], [3, "itemType"], [3, "decorationLevel"], [3, "upgradeContainer"]],
+      consts: [[1, "container", 3, "pointermove"], [1, "tab-container"], [1, "tab", 3, "click"], [1, "fas", "fa-save", "fa-lg"], [1, "equipment-container", 3, "hidden"], [1, "equipment-slots-container"], ["slotName", "Weapon"], ["weaponSlot", ""], ["slotName", "Head"], ["headSlot", ""], ["slotName", "Chest"], ["chestSlot", ""], ["slotName", "Arms"], ["armsSlot", ""], ["slotName", "Waist"], ["waistSlot", ""], ["slotName", "Legs"], ["legsSlot", ""], ["slotName", "Charm"], ["charmSlot", ""], ["slotName", "Tool1"], ["tool1Slot", ""], ["slotName", "Tool2"], ["tool2Slot", ""], [1, "stats-container", 3, "hidden"], [1, "control-buttons"], ["type", "button", "title", "Screenshot", 3, "click"], [1, "fas", "fa-camera", "fa-lg"], ["type", "button", "title", "Clear", 3, "click"], [1, "fas", "fa-eraser", "fa-lg"], ["type", "button", "title", "Save", 3, "click"], [3, "hidden"], [4, "ngIf"], [1, "signature"], ["type", "button", 3, "click"], ["href", "https://github.com/neftalimich/mhw-builder", "target", "_blank", "rel", "noreferrer", "title", "github"], [1, "fab", "fa-github"], ["href", "https://discord.gg/4s7yqFg", "target", "_blank", "rel", "noreferrer", "title", "discord"], [1, "fab", "fa-discord"], ["href", "https://twitter.com/mhw_builder", "target", "_blank", "rel", "noreferrer", "title", "twitter"], [1, "fab", "fa-twitter"], [1, "version-info"], ["type", "button", "id", "dummy", "aria-label", "dummy"], ["title", "Saved Sets List"], ["setListModal", ""], ["title", "Information"], ["contributorsModal", ""], [2, "padding", "16px"], ["href", "https://github.com/TurkeyTickle/mhw-builder", "target", "_blank", "rel", "noreferrer"], ["href", "https://www.github.com/neftalimich/mhw-builder", "target", "_blank", "rel", "noreferrer"], ["href", "https://twitter.com/mhw_builder", "target", "_blank", "rel", "noreferrer"], ["href", "https://paypal.me/neftalimich", "target", "_blank", "rel", "noreferrer"], ["href", "http://honeyhunterworld.com/mhwbi/", "target", "_blank", "rel", "noreferrer"], ["itemListModal", ""], [3, "itemType", "onlyIceborne", 4, "ngIf"], [3, "itemTypeFilters", "onlyIceborne", 4, "ngIf"], [3, "itemType", 4, "ngIf"], [3, "decorationLevel", 4, "ngIf"], [3, "upgradeContainer", 4, "ngIf"], ["title", "Change Log"], ["changeLogModal", ""], [3, "hidden", "click"], [1, "fas", "fa-minus-circle", "number"], [1, "fas", "fa-plus-circle", "number"], [3, "weaponMelodies"], [3, "itemType", "onlyIceborne"], [3, "itemTypeFilters", "onlyIceborne"], [3, "itemType"], [3, "decorationLevel"], [3, "upgradeContainer"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -770,7 +792,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "button", 26);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_Template_button_click_32_listener($event) {
-            return ctx.clearAllItems();
+            return ctx.screenshot();
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](33, "i", 27);
@@ -780,44 +802,48 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "button", 28);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_Template_button_click_34_listener($event) {
+            return ctx.clearAllItems();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](35, "i", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "button", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_Template_button_click_36_listener($event) {
             return ctx.openSaveModal();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](35, "i", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](37, "i", 3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](36, "mhw-builder-equipped-stats", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](38, "mhw-builder-equipped-stats", 31);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](37, "mhw-builder-equipped-skills", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](39, "mhw-builder-equipped-skills", 31);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](38, AppComponent_ng_container_38_Template, 11, 4, "ng-container", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](40, AppComponent_ng_container_40_Template, 11, 4, "ng-container", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](39, "mhw-builder-equipped-buffs", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](41, "mhw-builder-equipped-buffs", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](40, "mhw-builder-tooltip");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](42, "mhw-builder-tooltip");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "div", 31);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](43, "div", 33);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](42, " By TurkeyTickle & Neftalimich - ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, " By TurkeyTickle & Neftalimich - ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](43, "button", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "button", 34);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_Template_button_click_43_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_Template_button_click_45_listener($event) {
             return ctx.openContributors();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, "Info");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "a", 33);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](46, "i", 34);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, "Info");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -833,79 +859,85 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "a", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](52, "i", 40);
+
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "div", 39);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](52, "button", 40);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "div", 41);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "button", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](54, "button", 42);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_Template_button_click_53_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "button", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_Template_button_click_55_listener($event) {
             return ctx.openChangeLog();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](54, "ChangeLog");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](56, "ChangeLog");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "mhw-builder-modal", 41, 42);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](57, "mhw-builder-modal", 43, 44);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](57, "mhw-builder-set-list");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "mhw-builder-modal", 43, 44);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](60, "div", 45);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](61, "h3");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "a", 46);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](63, "TurkeyTickle Github (v1.0)");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](59, "mhw-builder-set-list");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](60, "mhw-builder-modal", 45, 46);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](64, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "div", 47);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](65, "a", 47);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](63, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](66, "Neftal\xED Michelet Github (v2.0)");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](64, "a", 48);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](65, "TurkeyTickle Github (v1.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](67, "p");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](66, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](68, "a", 48);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](67, "a", 49);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](69, "MHW Builder Twitter");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "p");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](71, "a", 49);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](72, "Donations \uD83D\uDE4F");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](68, "Neftal\xED Michelet Github (v2.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](73, "p");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](69, "p");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "a", 50);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "a", 50);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](75, "Honey Hunter World");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](71, "MHW Builder Twitter");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](72, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](73, "a", 51);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](74, "Donations \uD83D\uDE4F");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](75, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "a", 52);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](77, "Honey Hunter World");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -915,283 +947,283 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "mhw-builder-modal", null, 51);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](78, "mhw-builder-modal", null, 53);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](78, AppComponent_mhw_builder_weapon_list_78_Template, 1, 2, "mhw-builder-weapon-list", 52);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](80, AppComponent_mhw_builder_weapon_list_80_Template, 1, 2, "mhw-builder-weapon-list", 54);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](79, AppComponent_mhw_builder_armor_list_79_Template, 1, 4, "mhw-builder-armor-list", 53);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](81, AppComponent_mhw_builder_armor_list_81_Template, 1, 4, "mhw-builder-armor-list", 55);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](80, AppComponent_mhw_builder_charm_list_80_Template, 1, 1, "mhw-builder-charm-list", 54);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](82, AppComponent_mhw_builder_charm_list_82_Template, 1, 1, "mhw-builder-charm-list", 56);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](81, AppComponent_mhw_builder_tool_list_81_Template, 1, 1, "mhw-builder-tool-list", 54);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](83, AppComponent_mhw_builder_tool_list_83_Template, 1, 1, "mhw-builder-tool-list", 56);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](82, AppComponent_mhw_builder_decoration_list_82_Template, 1, 1, "mhw-builder-decoration-list", 55);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](84, AppComponent_mhw_builder_decoration_list_84_Template, 1, 1, "mhw-builder-decoration-list", 57);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](83, AppComponent_mhw_builder_augmentations_list_83_Template, 1, 0, "mhw-builder-augmentations-list", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](85, AppComponent_mhw_builder_augmentations_list_85_Template, 1, 0, "mhw-builder-augmentations-list", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](84, AppComponent_mhw_builder_upgrades_list_84_Template, 1, 1, "mhw-builder-upgrades-list", 56);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](86, AppComponent_mhw_builder_upgrades_list_86_Template, 1, 1, "mhw-builder-upgrades-list", 58);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](85, AppComponent_mhw_builder_setbonus_list_85_Template, 1, 0, "mhw-builder-setbonus-list", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](87, AppComponent_mhw_builder_setbonus_list_87_Template, 1, 0, "mhw-builder-setbonus-list", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](86, AppComponent_mhw_builder_modifications_list_86_Template, 1, 0, "mhw-builder-modifications-list", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](88, AppComponent_mhw_builder_modifications_list_88_Template, 1, 0, "mhw-builder-modifications-list", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](87, AppComponent_mhw_builder_kinsect_list_87_Template, 1, 0, "mhw-builder-kinsect-list", 30);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](88, "mhw-builder-modal", 57, 58);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "div", 45);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](91, "h3");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](92, "2020-07-12 Alatreon (Version 3.1.8)");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](89, AppComponent_mhw_builder_kinsect_list_89_Template, 1, 0, "mhw-builder-kinsect-list", 32);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](93, "ul");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "mhw-builder-modal", 59, 60);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](94, "li");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](92, "div", 47);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](95, "Alatreon.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](93, "h3");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](94, "2020-07-12 Alatreon (Version 3.1.8)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](95, "ul");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](96, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](97, "Buffs Alpha");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](97, "Alatreon.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](98, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](99, "Buffs Alpha");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](98, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](100, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](99, "2020-01-01 ICEBORNE (Version 3.0.0)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](100, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](101, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](102, "Safi'Jiiva Weapons and Awakenings.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](101, "2020-01-01 ICEBORNE (Version 3.0.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "ul");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](103, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](103, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](104, "2019-10-14 ICEBORNE (Version 2.7.5)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](105, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](106, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](107, "Now you can select multiple distinct armor pieces using the filter.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](104, "Safi'Jiiva Weapons and Awakenings.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](105, "h3");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](106, "2019-10-14 ICEBORNE (Version 2.7.5)");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](107, "ul");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](108, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](109, "Bug fixes.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](109, "Now you can select multiple distinct armor pieces using the filter.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](110, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](111, "Bug fixes.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](110, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](112, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](111, "2019-10-10 ICEBORNE (Version 2.7.0)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](112, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](113, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](114, "New Rajang Weapons/Armor added.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](113, "2019-10-10 ICEBORNE (Version 2.7.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](114, "ul");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](115, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](116, "New Custom upgrades updated.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](116, "New Rajang Weapons/Armor added.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](117, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](118, "New Custom upgrades updated.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](117, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](119, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](118, "2019-09-22 ICEBORNE (Version 2.6.0)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](119, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](120, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](121, "New Weapons Augment System added.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](120, "2019-09-22 ICEBORNE (Version 2.6.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](121, "ul");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](122, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](123, "New Weapons Custom Upgrade System added.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](123, "New Weapons Augment System added.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](124, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](125, "New Weapons Custom Upgrade System added.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](124, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](126, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](125, "2019-09-22 ICEBORNE (Version 2.5.0)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](126, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](127, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](128, "Tools Slots Added.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](127, "2019-09-22 ICEBORNE (Version 2.5.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](128, "ul");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](129, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](130, "Active/Inactive Tools Slot.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](130, "Tools Slots Added.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](131, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](132, "Equipped Skills Desing Improvement.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](132, "Active/Inactive Tools Slot.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](133, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](134, "Iceborne Armor Pack 1.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](134, "Equipped Skills Desing Improvement.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](135, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](136, "Iceborne Weapon Pack 1. (Thanks HoneyTear)");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](136, "Iceborne Armor Pack 1.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](137, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](138, "New Charms.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](138, "Iceborne Weapon Pack 1. (Thanks HoneyTear)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](139, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](140, "New & Updated Skills Pack 1.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](140, "New Charms.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](141, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](142, "Etc.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](142, "New & Updated Skills Pack 1.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](143, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](144, "Etc.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](143, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](145, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](144, "2019-03-20 (Version 2.3)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](145, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](146, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](147, "Download Set List HTML + AngularJS.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](146, "2019-03-20 (Version 2.3)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](147, "ul");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](148, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](149, "Filters");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](149, "Download Set List HTML + AngularJS.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](150, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](151, "Bug Fixes");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](151, "Filters");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](152, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](153, "Bug Fixes");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](152, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](154, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](153, "2019-03-19 (Version 2.2.5)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](154, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](155, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](156, "Kinsect Slot.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](155, "2019-03-19 (Version 2.2.5)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](156, "ul");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](157, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](157, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](158, "2019-03-15 (Version 2.2.0)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](159, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](160, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](161, "HBG/LBG Modifications Slot Added.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](158, "Kinsect Slot.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](162, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](159, "h3");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](163, "2019-01-11 (Version 2.1.0)");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](164, "ul");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](165, "li");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](166, "Save sets list.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](160, "2019-03-15 (Version 2.2.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](161, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](162, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](163, "HBG/LBG Modifications Slot Added.");
+
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](167, "h3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](168, "2019-01-01 (Version 2.0.0)");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](164, "h3");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](165, "2019-01-11 (Version 2.1.0)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](169, "ul");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](166, "ul");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](170, "li");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](167, "li");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](171, "Tons of improvements.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](168, "Save sets list.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](169, "h3");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](170, "2019-01-01 (Version 2.0.0)");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](171, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](172, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](173, "Tons of improvements.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
@@ -1227,7 +1259,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.statsVisible);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](8);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.attackDefenseVisible);
 
@@ -1284,7 +1316,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.slotService.selectedKinsectSlot);
         }
       },
-      directives: [_components_item_slot_item_slot_component__WEBPACK_IMPORTED_MODULE_5__["ItemSlotComponent"], _components_equipped_stats_equipped_stats_component__WEBPACK_IMPORTED_MODULE_4__["EquippedStatsComponent"], _components_equipped_skills_equipped_skills_component__WEBPACK_IMPORTED_MODULE_3__["EquippedSkillsComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_0__["NgIf"], _components_equipped_buffs_equipped_buffs_component__WEBPACK_IMPORTED_MODULE_13__["EquippedBuffsComponent"], _components_tooltip_tooltip_component__WEBPACK_IMPORTED_MODULE_6__["TooltipComponent"], _components_common_modal_modal_component__WEBPACK_IMPORTED_MODULE_2__["ModalComponent"], _components_set_list_set_list_component__WEBPACK_IMPORTED_MODULE_14__["SetListComponent"], _components_melodies_melodies_component__WEBPACK_IMPORTED_MODULE_15__["MelodiesComponent"], _components_weapon_list_weapon_list_component__WEBPACK_IMPORTED_MODULE_16__["WeaponListComponent"], _components_armor_list_armor_list_component__WEBPACK_IMPORTED_MODULE_17__["ArmorListComponent"], _components_charm_list_charm_list_component__WEBPACK_IMPORTED_MODULE_18__["CharmListComponent"], _components_tool_list_tool_list_component__WEBPACK_IMPORTED_MODULE_19__["ToolListComponent"], _components_decoration_list_decoration_list_component__WEBPACK_IMPORTED_MODULE_20__["DecorationListComponent"], _components_augmentations_list_augmentations_list_component__WEBPACK_IMPORTED_MODULE_21__["AugmentationsListComponent"], _components_upgrades_list_upgrades_list_component__WEBPACK_IMPORTED_MODULE_22__["UpgradesListComponent"], _components_setbonus_list_setbonus_list_component__WEBPACK_IMPORTED_MODULE_23__["SetbonusListComponent"], _components_modifications_list_modifications_list_component__WEBPACK_IMPORTED_MODULE_24__["ModificationsListComponent"], _components_kinsect_list_kinsect_list_component__WEBPACK_IMPORTED_MODULE_25__["KinsectListComponent"]],
+      directives: [_components_item_slot_item_slot_component__WEBPACK_IMPORTED_MODULE_5__["ItemSlotComponent"], _components_equipped_stats_equipped_stats_component__WEBPACK_IMPORTED_MODULE_4__["EquippedStatsComponent"], _components_equipped_skills_equipped_skills_component__WEBPACK_IMPORTED_MODULE_3__["EquippedSkillsComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_0__["NgIf"], _components_equipped_buffs_equipped_buffs_component__WEBPACK_IMPORTED_MODULE_14__["EquippedBuffsComponent"], _components_tooltip_tooltip_component__WEBPACK_IMPORTED_MODULE_6__["TooltipComponent"], _components_common_modal_modal_component__WEBPACK_IMPORTED_MODULE_2__["ModalComponent"], _components_set_list_set_list_component__WEBPACK_IMPORTED_MODULE_15__["SetListComponent"], _components_melodies_melodies_component__WEBPACK_IMPORTED_MODULE_16__["MelodiesComponent"], _components_weapon_list_weapon_list_component__WEBPACK_IMPORTED_MODULE_17__["WeaponListComponent"], _components_armor_list_armor_list_component__WEBPACK_IMPORTED_MODULE_18__["ArmorListComponent"], _components_charm_list_charm_list_component__WEBPACK_IMPORTED_MODULE_19__["CharmListComponent"], _components_tool_list_tool_list_component__WEBPACK_IMPORTED_MODULE_20__["ToolListComponent"], _components_decoration_list_decoration_list_component__WEBPACK_IMPORTED_MODULE_21__["DecorationListComponent"], _components_augmentations_list_augmentations_list_component__WEBPACK_IMPORTED_MODULE_22__["AugmentationsListComponent"], _components_upgrades_list_upgrades_list_component__WEBPACK_IMPORTED_MODULE_23__["UpgradesListComponent"], _components_setbonus_list_setbonus_list_component__WEBPACK_IMPORTED_MODULE_24__["SetbonusListComponent"], _components_modifications_list_modifications_list_component__WEBPACK_IMPORTED_MODULE_25__["ModificationsListComponent"], _components_kinsect_list_kinsect_list_component__WEBPACK_IMPORTED_MODULE_26__["KinsectListComponent"]],
       styles: [".container[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 16px;\n  margin: 6px;\n  overflow: hidden;\n}\n\n.tab-container[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  border-bottom: 4px #525252 solid;\n  display: none;\n  grid-template-columns: repeat(3, 1fr) 40px;\n  grid-gap: 4px;\n}\n\n.tab-container[_ngcontent-%COMP%]   .tab[_ngcontent-%COMP%] {\n  background-color: #323232;\n  border-radius: 3px 3px 0 0;\n  text-align: center;\n  line-height: 34px;\n  cursor: pointer;\n}\n\n.tab-container[_ngcontent-%COMP%]   .tab.selected[_ngcontent-%COMP%] {\n  background-color: #525252;\n}\n\n.tab2[_ngcontent-%COMP%] {\n  background-color: #323232;\n  border-radius: 3px 3px 3px 3px;\n  text-align: center;\n  line-height: 25px;\n  cursor: pointer;\n}\n\n.tab2.selected[_ngcontent-%COMP%] {\n  background-color: #525252;\n  color: white;\n}\n\n.equipment-container[_ngcontent-%COMP%] {\n  grid-column: 1/3;\n  grid-row: 1;\n  position: absolute;\n  top: 0;\n  bottom: 12px;\n  right: 0;\n  left: 0;\n  overflow-y: auto;\n  overflow-x: hidden;\n}\n\n.stats-container[_ngcontent-%COMP%] {\n  grid-column: 3;\n  grid-row: 1;\n  position: absolute;\n  top: 0;\n  bottom: 12px;\n  right: 0;\n  left: 0;\n  overflow-y: auto;\n  overflow-x: hidden;\n}\n\n.signature[_ngcontent-%COMP%] {\n  font-size: 12px;\n  position: fixed;\n  bottom: 2px;\n  left: 10px;\n  color: #969696;\n}\n\n.signature[_ngcontent-%COMP%]   a[_ngcontent-%COMP%], .signature[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:visited {\n  color: #969696;\n  padding: 2px;\n}\n\n.signature[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  text-decoration: underline;\n  padding-left: 0;\n}\n\n.version-info[_ngcontent-%COMP%] {\n  font-size: 12px;\n  position: fixed;\n  bottom: 2px;\n  right: 2px;\n  color: #969696;\n}\n\n.version-info[_ngcontent-%COMP%]   a[_ngcontent-%COMP%], .version-info[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:visited {\n  color: #969696;\n}\n\n.control-buttons[_ngcontent-%COMP%] {\n  position: fixed;\n  right: 50px;\n  top: 8px;\n  cursor: pointer;\n}\n\n.control-buttons[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  color: #fafafa !important;\n  padding: 5px !important;\n}\n\n.control-buttons[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  color: #c8c8c8 !important;\n}\n\n@media only screen and (max-width: 768px) {\n  .tab-container[_ngcontent-%COMP%] {\n    height: 34px;\n    display: grid;\n  }\n\n  .equipment-container[_ngcontent-%COMP%] {\n    top: 34px;\n    grid-column: 1/4;\n    margin-top: 8px;\n  }\n\n  .stats-container[_ngcontent-%COMP%] {\n    top: 34px;\n    grid-column: 1/4;\n    margin-top: 8px;\n  }\n\n  .control-buttons[_ngcontent-%COMP%] {\n    display: none;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2ViZGVzay9Eb3dubG9hZHMvR0lUL21ody1idWlsZGVyL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwiL2hvbWUvZWJkZXNrL0Rvd25sb2Fkcy9HSVQvbWh3LWJ1aWxkZXIvc3JjL3Nhc3MvX3ZhcmlhYmxlcy5zY3NzIiwic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSUE7RUFDQyxrQkFBQTtFQUNBLE1BQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxhQUFBO0VBQ0EscUNBQUE7RUFDQSxjQUFBO0VBQ0EsV0NiVztFRGNYLGdCQUFBO0FFSEQ7O0FGTUE7RUFDQyxrQkFBQTtFQUNBLE1BQUE7RUFDQSxPQUFBO0VBQ0EsUUFBQTtFQUNBLGdDQUFBO0VBQ0EsYUFBQTtFQUNBLDBDQUFBO0VBQ0EsYUFBQTtBRUhEOztBRktDO0VBQ0MseUJBQUE7RUFDQSwwQkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBN0JXO0VBOEJYLGVBQUE7QUVIRjs7QUZNQztFQUNDLHlCQUFBO0FFSkY7O0FGUUE7RUFDQyx5QkFBQTtFQUNBLDhCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7QUVMRDs7QUZTQTtFQUNDLHlCQUFBO0VBQ0EsWUFBQTtBRU5EOztBRlNBO0VBQ0MsZ0JBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSxNQUFBO0VBQ0EsWUFBQTtFQUNBLFFBQUE7RUFDQSxPQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtBRU5EOztBRlNBO0VBQ0MsY0FBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxZQUFBO0VBQ0EsUUFBQTtFQUNBLE9BQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0FFTkQ7O0FGU0E7RUFDQyxlQUFBO0VBQ0EsZUFBQTtFQUNBLFdBQUE7RUFDQSxVQUFBO0VBQ0EsY0FBQTtBRU5EOztBRlFDO0VBQ0MsY0FBQTtFQUNBLFlBQUE7QUVORjs7QUZTQztFQUNDLDBCQUFBO0VBQ0EsZUFBQTtBRVBGOztBRldBO0VBQ0MsZUFBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0VBQ0EsVUFBQTtFQUNBLGNBQUE7QUVSRDs7QUZVQztFQUNDLGNBQUE7QUVSRjs7QUZZQTtFQUNDLGVBQUE7RUFDQSxXQUFBO0VBQ0EsUUFBQTtFQUNBLGVBQUE7QUVURDs7QUZXQztFQUNDLHlCQUFBO0VBQ0EsdUJBQUE7QUVURjs7QUZZQztFQUNDLHlCQUFBO0FFVkY7O0FGY0E7RUFDQztJQUNDLFlBNUhXO0lBNkhYLGFBQUE7RUVYQTs7RUZjRDtJQUNDLFNBQUE7SUFDQSxnQkFBQTtJQUNBLGVBQUE7RUVYQTs7RUZjRDtJQUNDLFNBQUE7SUFDQSxnQkFBQTtJQUNBLGVBQUE7RUVYQTs7RUZjRDtJQUNDLGFBQUE7RUVYQTtBQUNGIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4uL3Nhc3MvdmFyaWFibGVzXCI7XG5cbiR0YWJzSGVpZ2h0OiAzNHB4O1xuXG4uY29udGFpbmVyIHtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHR0b3A6IDA7XG5cdHJpZ2h0OiAwO1xuXHRib3R0b206IDA7XG5cdGxlZnQ6IDA7XG5cdGRpc3BsYXk6IGdyaWQ7XG5cdGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDMsIDFmcik7XG5cdGdyaWQtZ2FwOiAxNnB4O1xuXHRtYXJnaW46ICRhcHBNYXJnaW47XG5cdG92ZXJmbG93OiBoaWRkZW47XG59XG5cbi50YWItY29udGFpbmVyIHtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHR0b3A6IDA7XG5cdGxlZnQ6IDA7XG5cdHJpZ2h0OiAwO1xuXHRib3JkZXItYm90dG9tOiA0cHggIzUyNTI1MiBzb2xpZDtcblx0ZGlzcGxheTogbm9uZTtcblx0Z3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMywgMWZyKSA0MHB4O1xuXHRncmlkLWdhcDogNHB4O1xuXG5cdC50YWIge1xuXHRcdGJhY2tncm91bmQtY29sb3I6ICMzMjMyMzI7XG5cdFx0Ym9yZGVyLXJhZGl1czogM3B4IDNweCAwIDA7XG5cdFx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHRcdGxpbmUtaGVpZ2h0OiAkdGFic0hlaWdodDtcblx0XHRjdXJzb3I6IHBvaW50ZXI7XG5cdH1cblxuXHQudGFiLnNlbGVjdGVkIHtcblx0XHRiYWNrZ3JvdW5kLWNvbG9yOiAjNTI1MjUyO1xuXHR9XG59XG5cbi50YWIyIHtcblx0YmFja2dyb3VuZC1jb2xvcjogIzMyMzIzMjtcblx0Ym9yZGVyLXJhZGl1czogM3B4IDNweCAzcHggM3B4O1xuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XG5cdGxpbmUtaGVpZ2h0OiAyNXB4O1xuXHRjdXJzb3I6IHBvaW50ZXI7XG59XG5cblxuLnRhYjIuc2VsZWN0ZWQge1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjNTI1MjUyO1xuXHRjb2xvcjogd2hpdGU7XG59XG5cbi5lcXVpcG1lbnQtY29udGFpbmVyIHtcblx0Z3JpZC1jb2x1bW46IDEgLyAzO1xuXHRncmlkLXJvdzogMTtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHR0b3A6IDA7XG5cdGJvdHRvbTogMTJweDtcblx0cmlnaHQ6IDA7XG5cdGxlZnQ6IDA7XG5cdG92ZXJmbG93LXk6IGF1dG87XG5cdG92ZXJmbG93LXg6IGhpZGRlbjtcbn1cblxuLnN0YXRzLWNvbnRhaW5lciB7XG5cdGdyaWQtY29sdW1uOiAzO1xuXHRncmlkLXJvdzogMTtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHR0b3A6IDA7XG5cdGJvdHRvbTogMTJweDtcblx0cmlnaHQ6IDA7XG5cdGxlZnQ6IDA7XG5cdG92ZXJmbG93LXk6IGF1dG87XG5cdG92ZXJmbG93LXg6IGhpZGRlbjtcbn1cblxuLnNpZ25hdHVyZSB7XG5cdGZvbnQtc2l6ZTogMTJweDtcblx0cG9zaXRpb246IGZpeGVkO1xuXHRib3R0b206IDJweDtcblx0bGVmdDogMTBweDtcblx0Y29sb3I6ICM5Njk2OTY7XG5cblx0YSwgYTp2aXNpdGVkIHtcblx0XHRjb2xvcjogIzk2OTY5Njtcblx0XHRwYWRkaW5nOiAycHg7XG5cdH1cblxuXHRidXR0b24ge1xuXHRcdHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuXHRcdHBhZGRpbmctbGVmdDogMDtcblx0fVxufVxuXG4udmVyc2lvbi1pbmZvIHtcblx0Zm9udC1zaXplOiAxMnB4O1xuXHRwb3NpdGlvbjogZml4ZWQ7XG5cdGJvdHRvbTogMnB4O1xuXHRyaWdodDogMnB4O1xuXHRjb2xvcjogIzk2OTY5NjtcblxuXHRhLCBhOnZpc2l0ZWQge1xuXHRcdGNvbG9yOiAjOTY5Njk2O1xuXHR9XG59XG5cbi5jb250cm9sLWJ1dHRvbnMge1xuXHRwb3NpdGlvbjogZml4ZWQ7XG5cdHJpZ2h0OiA1MHB4O1xuXHR0b3A6IDhweDtcblx0Y3Vyc29yOiBwb2ludGVyO1xuXG5cdGJ1dHRvbiB7XG5cdFx0Y29sb3I6IHJnYigyNTAsIDI1MCwgMjUwKSAhaW1wb3J0YW50O1xuXHRcdHBhZGRpbmc6IDVweCAhaW1wb3J0YW50O1xuXHR9XG5cblx0YnV0dG9uOmhvdmVyIHtcblx0XHRjb2xvcjogcmdiKDIwMCwgMjAwLCAyMDApICFpbXBvcnRhbnQ7XG5cdH1cbn1cblxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NjhweCkge1xuXHQudGFiLWNvbnRhaW5lciB7XG5cdFx0aGVpZ2h0OiAkdGFic0hlaWdodDtcblx0XHRkaXNwbGF5OiBncmlkO1xuXHR9XG5cblx0LmVxdWlwbWVudC1jb250YWluZXIge1xuXHRcdHRvcDogJHRhYnNIZWlnaHQgKyAwO1xuXHRcdGdyaWQtY29sdW1uOiAxIC8gNDtcblx0XHRtYXJnaW4tdG9wOiA4cHg7XG5cdH1cblxuXHQuc3RhdHMtY29udGFpbmVyIHtcblx0XHR0b3A6ICR0YWJzSGVpZ2h0ICsgMDtcblx0XHRncmlkLWNvbHVtbjogMSAvIDQ7XG5cdFx0bWFyZ2luLXRvcDogOHB4O1xuXHR9XG5cblx0LmNvbnRyb2wtYnV0dG9ucyB7XG5cdFx0ZGlzcGxheTpub25lO1xuXHR9XG59XG4iLCIkYXBwTWFyZ2luOiA2cHg7XG5cbiRncmVlbjogIzg2ZmY4NjtcbiRvZ3JlZW46ICM0MmI4ODM7XG4kYmx1ZTogIzFiZTdmZjtcbiRvYmx1ZTogIzVmNmNhZjtcbiR5ZWxsb3c6ICNlNGZmMWE7XG4kb3llbGxvdzogI2ZkZGIzYTtcbiRvcmFuZ2U6ICNmZmI4MDA7XG4kcmVkOiAjZmY1NzE0O1xuJHB1cnBsZTogI0RBNzBENjtcbiRrYWtoaTogI0YwRTY4QztcbiRwaW5rOiAjZTdhNGU0O1xuXG4kZmlyZTogI2ZmNjY2NjtcbiR3YXRlcjogIzY2Y2NmZjtcbiR0aHVuZGVyOiAjZmY5OTAwO1xuJGljZTogIzAwOTlmZjtcbiRkcmFnb246ICMzY2IwNWQ7XG4kcG9pc29uOiAjY2M0NGZmO1xuJHNsZWVwOiAjOTk5OWZmO1xuJHBhcmFseXNpczogI2U2Y2IwMDtcbiRibGFzdDogI0U2QTQwMDtcblxuJGF0dGFjazogI2YxNjY2YjtcbiRhZmZpbml0eTogIzkwOTBkMjtcbiRkZWZlbnNlOiAjZjdhODRjO1xuJHNsb3Q6ICM2MWE1ZDQ7XG4kaGVhbHRoOiAjNmZjMWE1O1xuJGVsZW1lbnQ6ICNlZGU2NGU7XG4kYWlsbWVudDogI2VkZWE1NTtcbiRzaGFycG5lc3M6ICM5Mzk5YTY7XG4kY2FwYWNpdHk6ICM3NTgxODQ7XG4kbWVsb2R5OiAjZTdhNGU0OyIsIi5jb250YWluZXIge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgcmlnaHQ6IDA7XG4gIGJvdHRvbTogMDtcbiAgbGVmdDogMDtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMywgMWZyKTtcbiAgZ3JpZC1nYXA6IDE2cHg7XG4gIG1hcmdpbjogNnB4O1xuICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG4udGFiLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xuICByaWdodDogMDtcbiAgYm9yZGVyLWJvdHRvbTogNHB4ICM1MjUyNTIgc29saWQ7XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDMsIDFmcikgNDBweDtcbiAgZ3JpZC1nYXA6IDRweDtcbn1cbi50YWItY29udGFpbmVyIC50YWIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzIzMjMyO1xuICBib3JkZXItcmFkaXVzOiAzcHggM3B4IDAgMDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBsaW5lLWhlaWdodDogMzRweDtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuLnRhYi1jb250YWluZXIgLnRhYi5zZWxlY3RlZCB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM1MjUyNTI7XG59XG5cbi50YWIyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMyMzIzMjtcbiAgYm9yZGVyLXJhZGl1czogM3B4IDNweCAzcHggM3B4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGxpbmUtaGVpZ2h0OiAyNXB4O1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi50YWIyLnNlbGVjdGVkIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzUyNTI1MjtcbiAgY29sb3I6IHdoaXRlO1xufVxuXG4uZXF1aXBtZW50LWNvbnRhaW5lciB7XG4gIGdyaWQtY29sdW1uOiAxLzM7XG4gIGdyaWQtcm93OiAxO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgYm90dG9tOiAxMnB4O1xuICByaWdodDogMDtcbiAgbGVmdDogMDtcbiAgb3ZlcmZsb3cteTogYXV0bztcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xufVxuXG4uc3RhdHMtY29udGFpbmVyIHtcbiAgZ3JpZC1jb2x1bW46IDM7XG4gIGdyaWQtcm93OiAxO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgYm90dG9tOiAxMnB4O1xuICByaWdodDogMDtcbiAgbGVmdDogMDtcbiAgb3ZlcmZsb3cteTogYXV0bztcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xufVxuXG4uc2lnbmF0dXJlIHtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGJvdHRvbTogMnB4O1xuICBsZWZ0OiAxMHB4O1xuICBjb2xvcjogIzk2OTY5Njtcbn1cbi5zaWduYXR1cmUgYSwgLnNpZ25hdHVyZSBhOnZpc2l0ZWQge1xuICBjb2xvcjogIzk2OTY5NjtcbiAgcGFkZGluZzogMnB4O1xufVxuLnNpZ25hdHVyZSBidXR0b24ge1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbiAgcGFkZGluZy1sZWZ0OiAwO1xufVxuXG4udmVyc2lvbi1pbmZvIHtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGJvdHRvbTogMnB4O1xuICByaWdodDogMnB4O1xuICBjb2xvcjogIzk2OTY5Njtcbn1cbi52ZXJzaW9uLWluZm8gYSwgLnZlcnNpb24taW5mbyBhOnZpc2l0ZWQge1xuICBjb2xvcjogIzk2OTY5Njtcbn1cblxuLmNvbnRyb2wtYnV0dG9ucyB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgcmlnaHQ6IDUwcHg7XG4gIHRvcDogOHB4O1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG4uY29udHJvbC1idXR0b25zIGJ1dHRvbiB7XG4gIGNvbG9yOiAjZmFmYWZhICFpbXBvcnRhbnQ7XG4gIHBhZGRpbmc6IDVweCAhaW1wb3J0YW50O1xufVxuLmNvbnRyb2wtYnV0dG9ucyBidXR0b246aG92ZXIge1xuICBjb2xvcjogI2M4YzhjOCAhaW1wb3J0YW50O1xufVxuXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KSB7XG4gIC50YWItY29udGFpbmVyIHtcbiAgICBoZWlnaHQ6IDM0cHg7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgfVxuXG4gIC5lcXVpcG1lbnQtY29udGFpbmVyIHtcbiAgICB0b3A6IDM0cHg7XG4gICAgZ3JpZC1jb2x1bW46IDEvNDtcbiAgICBtYXJnaW4tdG9wOiA4cHg7XG4gIH1cblxuICAuc3RhdHMtY29udGFpbmVyIHtcbiAgICB0b3A6IDM0cHg7XG4gICAgZ3JpZC1jb2x1bW46IDEvNDtcbiAgICBtYXJnaW4tdG9wOiA4cHg7XG4gIH1cblxuICAuY29udHJvbC1idXR0b25zIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICB9XG59Il19 */"]
     });
     /*@__PURE__*/
