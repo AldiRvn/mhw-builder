@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "export NODE_OPTIONS=--openssl-legacy-provider; ng serve",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build --output-path docs --prod --base-href /mhw-builder/",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build --output-path docs --prod --source-map=true --base-href /mhw-builder/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
