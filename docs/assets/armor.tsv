@@ -788,3 +788,8 @@ id	itemType	rarity	name	defense	fireResist	waterResist	thunderResist	iceResist	d
 3023	Arms	10	Rose Arms α +	150;168;182	4	1	1	1	1	toolSpecialist-3;festivalBlessing	4	event	0
 3024	Waist	10	Rose Belt α +	150;168;182	4	1	1	1	1	resentment-3;festivalBlessing	4;1	event	0
 3025	Legs	10	Rose Boots α +	150;168;182	4	1	1	1	1	partbreaker-2;festivalBlessing	4;1	event	0
+3026	Head	12	Rimeguard Helm γ +	180;198;218	-3	2	-1	4	-1	coalescence-3;resuscitate-1;velkhanaDivinity	4;4;1	velkhana	0
+3027	Chest	12	Rimeguard Mail γ +	180;198;218	-3	2	-1	4	-1	criticalDraw-3;iceAttack-3;velkhanaDivinity	4;2;1	velkhana	0
+3028	Arms	12	Rimeguard Vambraces γ +	180;198;218	-3	2	-1	4	-1	recoveryUp-3;iceAttack-3;velkhanaDivinity	4;3	velkhana	0
+3029	Waist	12	Rimeguard Coil γ +	180;198;218	-3	2	-1	4	-1	focus-3;quickSheath-1;velkhanaDivinity	4;1	velkhana	0
+3030	Legs	12	Rimeguard Greaves γ +	180;198;218	-3	2	-1	4	-1	peakPerformance-3;quickSheath-2;velkhanaDivinity	4;2	velkhana	0
