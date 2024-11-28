@@ -793,3 +793,8 @@ id	itemType	rarity	name	defense	fireResist	waterResist	thunderResist	iceResist	d
 3028	Arms	12	Rimeguard Vambraces γ +	180;198;218	-3	2	-1	4	-1	recoveryUp-3;iceAttack-3;velkhanaDivinity	4;3	velkhana	0
 3029	Waist	12	Rimeguard Coil γ +	180;198;218	-3	2	-1	4	-1	focus-3;quickSheath-1;velkhanaDivinity	4;1	velkhana	0
 3030	Legs	12	Rimeguard Greaves γ +	180;198;218	-3	2	-1	4	-1	peakPerformance-3;quickSheath-2;velkhanaDivinity	4;2	velkhana	0
+3031	Head	12	Azure Age Hair Alpha +	170;176;188	2	2	0	0	3	slingerCapacity-3;weaknessExploit-1;silverRathalosEssence	4	event	0
+3032	Chest	12	Azure Age Haori Alpha +	170;176;188	2	2	0	0	3	constitution-2;focus-1;silverRathalosEssence	4	event	0
+3033	Arms	12	Azure Age Sleeve Alpha +	170;176;188	2	2	0	0	3	focus-2;weaknessExploit-1;silverRathalosEssence	1;1;1	event	0
+3034	Waist	12	Azure Age Obi Alpha +	170;176;188	2	2	0	0	3	slingerCapacity-2;waterAttack-3;silverRathalosEssence	4;1;1	event	0
+3035	Legs	12	Azure Age Geta Alpha +	170;176;188	2	2	0	0	3	constitution-2;weaknessExploit-1;silverRathalosEssence	4;1	event	0
