@@ -307,6 +307,7 @@ export class CalculationService {
 			attackPotentialCalc.calculationVariables.splice(2, 0, this.getAwakeningVariable(stats));
 		}
 
+		attackPotentialCalc.value = Math.round(stats.totalAttackPotential * stats.effectivePhysicalSharpnessModifier)
 		return attackPotentialCalc;
 	}
 
